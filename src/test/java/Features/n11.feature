@@ -1,0 +1,14 @@
+@n11
+  Feature:n11 Mobil Uygulamasi
+    Scenario:n11 Mobil Uygulaması ile Telefon Satin Alma Otomasyonu
+      When Kategorilere tıklanır
+      When elektronik tıklanır
+      When Telefon aksesuarları seçilir
+      When Cep Telefonu seçilir
+      When Marka seçilir
+      When Filtreleme tıklanır
+      When Filtreleme yapılır
+      When Sonuçlarıgöstere tıklanır
+      When Urun sepete eklenir
+      When Sepetime Gidilir
+      Then Sepete Ürünün geldiği kontrol edilir
